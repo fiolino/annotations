@@ -1,7 +1,7 @@
 package org.fiolino.annotations;
 
 /**
- * If beans implement this, then this solr method will be invoked after instantiation.
+ * If beans implement this, then this method will be invoked after instantiation.
  * <p>
  * Created by kuli on 08.12.15.
  */
