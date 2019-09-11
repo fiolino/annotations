@@ -14,6 +14,10 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Target(METHOD)
 public @interface Provider {
+    /**
+     * Specifies which return types are eligible for this method.
+     */
+    Class<?>[] value() default {};
 
     /**
      * If this is set to true, then this is an optional provider for that type, which means it can return null.
